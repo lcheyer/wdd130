@@ -5,7 +5,7 @@ a {
     background-color: lightblue;
     color: #000
     text-decoration: none; 
-    padding 10px
+    padding: 10px
     margin: 5px
     text-align: center;
 }
@@ -14,5 +14,5 @@ nav {
 }
 
 .background {
-    Background-color: #ccc
+    Background-color: #fffcfc
 }
