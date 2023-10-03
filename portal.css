@@ -31,6 +31,11 @@ h1 {
 img {
     width: 60%;
 }
+p {
+    /* text-align: center; */
+    width: 40%;
+    margin: 0 auto; 
+}
 .background {
-    Background-color: #ccc;
+    background-color: #ccc;
 }
