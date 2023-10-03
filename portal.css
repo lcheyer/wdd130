@@ -25,6 +25,8 @@ nav {
 h1 {
     font-size: 1.5em;
     text-align: center;
+    display: block;
+    margin:0 auto;
 }
 img {
     width: 60%;
