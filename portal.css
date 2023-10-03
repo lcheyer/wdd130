@@ -18,7 +18,9 @@ nav {
     display: flex;
     justify-content: center;
 }
-
+h1 {
+    font-size: 1em;
+}
 .background {
     Background-color: #fffcfc
 }
