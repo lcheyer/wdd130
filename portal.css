@@ -34,7 +34,8 @@ img {
 p {
     /* text-align: center; */
     width: 40%;
-    margin: 0 auto; 
+    margin: 10px auto; 
+    padding: 10px;
 }
 .background {
     background-color: #ccc;
