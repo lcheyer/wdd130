@@ -33,10 +33,15 @@ img {
 }
 p {
     /* text-align: center; */
-    width: 40%;
+    width: 60%;
     margin: 10px auto; 
     padding: 10px;
 }
 .background {
     background-color: #ccc;
+}
+footer p {
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71, 69, 69);
 }
