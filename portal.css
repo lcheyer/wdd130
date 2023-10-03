@@ -7,7 +7,7 @@ body {
 }
 a {
     background-color: lightblue;
-    color: #000
+    color: rgb(71, 69, 69);
     text-decoration: none; 
     padding: 10px;
     margin: 5px;
@@ -41,6 +41,7 @@ p {
     background-color: #ccc;
 }
 footer p {
+    width: 100%;
     text-align: center;
     background-color: lightblue;
     color: rgb(71, 69, 69);
