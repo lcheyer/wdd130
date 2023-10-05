@@ -32,6 +32,7 @@ img {
     width: 60%;
     text-align: center;
 }
+#backdrop 
 main {
     display: flex;
     justify-content: center;
