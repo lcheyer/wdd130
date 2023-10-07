@@ -5,11 +5,11 @@ body {
     background-color: #fcfbfb
 }
 header {
-    background-color:rgb(68, 111, 240);
+    background-color:#046ede
 }
 nav a:hover {
-    background-color: black;
-    color: #abc4e9;
+    background-color: #03045e;
+    color: #90b8f0;
 }
 .icon {
     width: 80px;
