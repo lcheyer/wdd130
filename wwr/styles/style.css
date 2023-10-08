@@ -73,6 +73,7 @@ main section {
 }
 img {
     text-align: center;
+    margin: 0 auto;
 }
 #background {
     height: 725px;
@@ -83,4 +84,12 @@ img {
 }
 .msg p {
     color: #03045e;
+}
+#hero-img {
+    width: 100%;
+    text-align: center;
+}
+#mountains.jpeg-img {
+    text-align: center;
+    margin: 0 auto;
 }
