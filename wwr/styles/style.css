@@ -30,3 +30,15 @@ div {
     background-color: powderblue;
     margin: 0 auto;
 }
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
