@@ -25,10 +25,11 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
     color: black;
+    background-color: #90b8f0
 }
 div {
     max-width: 1600px;
-    background-color: #90b8f0;
+    background-color: #c8d9f7;
     margin: 0 auto;
 }
 #hero-msg h1 {
