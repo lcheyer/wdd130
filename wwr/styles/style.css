@@ -1,11 +1,25 @@
-#background {
-    height: 725px;
-}
 body {
-    background-color: white
+    background-color: white;
 }
 header {
-    background-color:#046ede
+    background-color:#046ede;
+}
+.book {
+    background-color: white;
+}
+.join { 
+    background-color: white;
+}
+.book:hover {
+    background-color: #046ede;
+    color: white
+}
+.join:hover {
+    background-color: #046ede;
+    color: white;
+}
+.msg {
+    background-color: #fcfbfb;
 }
 nav a:hover {
     background-color: #03045e;
@@ -27,6 +41,9 @@ footer p a:hover {
     color: white;
     background-color: #046ede;
 }
+footer {
+    background-color: #046ede;
+}
 div {
     max-width: 1600px;
     background-color: #90b8f0;
@@ -46,4 +63,8 @@ main section {
 }
 img {
     text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #90b8f0;
 }
