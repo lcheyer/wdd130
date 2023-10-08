@@ -6,14 +6,14 @@ header {
 }
 .book {
     background-color: #90b8f0;
-    color: #03045e
-}
-.join { 
-    background-color: #90b8f0;
-    color: white;
+    color: #03045e;
 }
 .book:hover {
     background-color: #03045e;
+    color: white;
+}
+.join { 
+    background-color: #90b8f0;
     color: white;
 }
 .join:hover {
@@ -23,10 +23,6 @@ header {
 .msg {
     background-color: #90b8f0;
 }
-nav a:hover {
-    background-color: #03045e;
-    color: #90b8f0;
-}
 .icon {
     width: 80px;
 }
@@ -35,9 +31,13 @@ nav a {
     color: #90b8f0;
     text-decoration: none;
 }
+nav a:hover {
+    background-color: #03045e;
+    color: #90b8f0;
+}
 footer p {
     font-size: 1.2em;
-    color: black
+    color: #03045e;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -46,6 +46,10 @@ footer p a:hover {
 }
 footer {
     background-color: #fcfbfb;
+    color: #03045e;
+}
+footer a {
+    color: #03045e;
 }
 div {
     max-width: 1600px;
@@ -70,4 +74,10 @@ img {
 #background {
     height: 725px;
     background-color: #046ede;
+}
+.msg h2 {
+    color: #03045e;
+}
+.msg p {
+    color: #03045e;
 }
