@@ -30,7 +30,7 @@ nav a:hover {
 }
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #90b8f0;
     text-decoration: none;
 }
 footer p {
@@ -42,7 +42,7 @@ footer p a:hover {
     background-color: #046ede;
 }
 footer {
-    background-color: #046ede;
+    background-color: #fcfbfb;
 }
 div {
     max-width: 1600px;
