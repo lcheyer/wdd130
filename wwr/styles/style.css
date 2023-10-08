@@ -89,10 +89,9 @@ img {
     width: 100%;
     text-align: center;
 }
-#mountains.jpeg-img {
-    text-align: center;
-    margin: 0 auto;
-}
 #content {
     margin: 0 auto;
+}
+.logo {
+    width: 80px;
 }
