@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    color: #03045e;
 }
 header {
     background-color:#046ede;
@@ -58,9 +59,11 @@ div {
 }
 #hero-msg h1 {
     text-align: center;
+    color: #03045e;
 }
 #hero-msg h4 {
     text-align: center;
+    color: #03045e;
 }
 .button-box {
     text-align: center;
