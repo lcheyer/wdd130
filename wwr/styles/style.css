@@ -8,18 +8,22 @@ header {
 .book {
     background-color: #90b8f0;
     color: #03045e;
+    text-decoration: none;
 }
 .book:hover {
     background-color: #03045e;
     color: white;
+    text-decoration: underline;
 }
 .join { 
     background-color: #90b8f0;
     color: white;
+    text-decoration: none;
 }
 .join:hover {
     background-color: #046ede;
     color: white;
+    text-decoration: underline;
 }
 .msg {
     background-color: #90b8f0;
@@ -39,6 +43,7 @@ nav a:hover {
 footer p {
     font-size: 1.2em;
     color: #03045e;
+    text-decoration: none;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -51,6 +56,7 @@ footer {
 }
 footer a {
     color: #03045e;
+    text-decoration: none;
 }
 div {
     max-width: 1600px;
@@ -93,3 +99,7 @@ img {
     text-align: center;
     margin: 0 auto;
 }
+.logo {
+    width: 80px;
+}
+
