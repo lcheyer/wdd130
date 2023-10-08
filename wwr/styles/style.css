@@ -24,8 +24,8 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-    color: black;
-    background-color: #c8d9f7;
+    color: white;
+    background-color: #046ede;
 }
 div {
     max-width: 1600px;
