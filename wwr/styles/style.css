@@ -5,21 +5,23 @@ header {
     background-color:#046ede;
 }
 .book {
-    background-color: white;
+    background-color: #90b8f0;
+    color: #03045e
 }
 .join { 
-    background-color: white;
+    background-color: #90b8f0;
+    color: white;
 }
 .book:hover {
-    background-color: #046ede;
-    color: white
+    background-color: white;
+    color: #046ede;
 }
 .join:hover {
     background-color: #046ede;
     color: white;
 }
 .msg {
-    background-color: #fcfbfb;
+    background-color: #90b8f0;
 }
 nav a:hover {
     background-color: #03045e;
@@ -46,7 +48,7 @@ footer {
 }
 div {
     max-width: 1600px;
-    background-color: #90b8f0;
+    background-color: #fcfbfb;
     margin: 0 auto;
 }
 #hero-msg h1 {
@@ -66,5 +68,5 @@ img {
 }
 #background {
     height: 725px;
-    background-color: #90b8f0;
+    background-color: #046ede;
 }
