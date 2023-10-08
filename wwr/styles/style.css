@@ -24,6 +24,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+    color: black;
 }
 div {
     max-width: 1600px;
