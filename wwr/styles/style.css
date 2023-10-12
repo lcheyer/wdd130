@@ -49,6 +49,7 @@ nav a:hover {
 footer p {
     font-size: 1.2em;
     color: white;
+    font-family: "Mooli", Arial, Helvetica, sans-serif
 }
 footer p a:hover {
     text-decoration: none;
