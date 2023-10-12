@@ -9,7 +9,7 @@ header {
     background-color:#046ede;
 }
 .home-title {
-    font-family: "Lolita One";
+    font-family: "Lolita One", monospace;
 }
 .book {
     background-color: #90b8f0;
