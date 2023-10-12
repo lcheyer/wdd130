@@ -2,7 +2,7 @@
 body {
     background-color: white;
     color: #03045e;
-    font-family: "Lolita One";
+    font-family: "Lolita One", monospace;
 
 }
 header {
