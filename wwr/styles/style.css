@@ -8,6 +8,7 @@ header {
 .book {
     background-color: #90b8f0;
     color: #03045e;
+    text-decoration: none;
 }
 .book:hover {
     background-color: #03045e;
@@ -16,6 +17,7 @@ header {
 .join { 
     background-color: #90b8f0;
     color: white;
+    text-decoration: none;
 }
 .join:hover {
     background-color: #046ede;
@@ -41,7 +43,7 @@ footer p {
     color: #03045e;
 }
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     background-color: #046ede;
 }
