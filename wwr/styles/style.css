@@ -31,9 +31,6 @@ header {
     background-color: #046ede;
     color: white;
 }
-.msg {
-    background-color: #90b8f0;
-}
 .icon {
     width: 80px;
 }
@@ -91,6 +88,8 @@ img {
     height: 725px;
     background-color: #046ede;
 }
+.msg {
+    background-color: #90b8f0;
 .msg h2 {
     color: #03045e;
     font-family: "Lolita One";
