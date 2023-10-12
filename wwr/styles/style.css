@@ -73,6 +73,7 @@ div {
 #hero-msg h4 {
     text-align: center;
     color: #03045e;
+    font-family: "Mooli", Arial, Helvetica, sans-serif;
 }
 .button-box {
     text-align: center;
@@ -92,7 +93,7 @@ img {
     background-color: #90b8f0;
 .msg h2 {
     color: #03045e;
-    font-family: "Lolita One";
+    font-family: "Lolita One", monospace;
 }
 .msg p {
     color: #03045e;
