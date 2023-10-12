@@ -24,6 +24,7 @@ header {
     background-color: #90b8f0;
     color: white;
     text-decoration: none;
+    font-family: "Mooli", Arial, Helvetica, sans-serif 
 }
 .join:hover {
     background-color: #046ede;
@@ -39,6 +40,7 @@ nav a {
     text-align: center;
     color: #90b8f0;
     text-decoration: none;
+    font-family: "Mooli", Arial, Helvetica, sans-serif
 }
 nav a:hover {
     background-color: #03045e;
