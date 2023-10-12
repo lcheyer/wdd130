@@ -10,12 +10,14 @@ header {
 }
 .home-title {
     font-family: "Lolita One", monospace;
+    font-size: 2em;
 }
 .book {
     background-color: white;
     color: #03045e;
     text-decoration: none;
-    font-family: "Mooli", Arial, Helvetica, sans-serif
+    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 .book:hover {
     background-color: #03045e;
@@ -25,7 +27,8 @@ header {
     background-color: #90b8f0;
     color: white;
     text-decoration: none;
-    font-family: "Mooli", Arial, Helvetica, sans-serif 
+    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 .join:hover {
     background-color: #046ede;
@@ -98,7 +101,8 @@ img {
 }
 .msg p {
     color: #03045e;
-    font-family: "Mooli", Arial, Helvetica, sans-serif
+    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-size: .8em;
 }
 #hero-img {
     width: 100%;
