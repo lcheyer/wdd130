@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Mooli&display=swap'); 
 body {
     background-color: white;
     color: #03045e;
+    font-family: "Lolita One";
+
 }
 header {
     background-color:#046ede;
+}
+.home-title {
+    font-family: "Lolita One";
 }
 .book {
     background-color: #90b8f0;
@@ -83,6 +89,7 @@ img {
 }
 .msg h2 {
     color: #03045e;
+    font-family: "Lolita One";
 }
 .msg p {
     color: #03045e;
