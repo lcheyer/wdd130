@@ -40,12 +40,12 @@ nav a:hover {
 }
 footer p {
     font-size: 1.2em;
-    color: #03045e;
+    color: white;
 }
 footer p a:hover {
     text-decoration: none;
-    color: white;
-    background-color: #046ede;
+    color: 046ede;
+    background-color: white;
 }
 footer {
     background-color: #046ede;
