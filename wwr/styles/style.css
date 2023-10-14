@@ -26,6 +26,7 @@ header {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #03045e;
@@ -39,6 +40,7 @@ header {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #046ede;
@@ -138,4 +140,10 @@ img {
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #03045e;
+}
+main section img {
+    box-sizing: border-box;
 }
