@@ -16,6 +16,7 @@ header {
 .home-title {
     font-family: 'Lolita One', monospace, sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 .book {
     background-color: white;
@@ -24,6 +25,7 @@ header {
     font-family: 'Mooli', Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover {
     background-color: #03045e;
@@ -36,6 +38,7 @@ header {
     font-family: 'Mooli', Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 .join:hover {
     background-color: #046ede;
@@ -69,6 +72,7 @@ footer {
     background-color: #046ede;
     color: #fcfbfb;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #03045e;
@@ -131,4 +135,7 @@ img {
 }
 .icon {
     padding-top: 35px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
