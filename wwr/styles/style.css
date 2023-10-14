@@ -2,21 +2,21 @@
 body {
     background-color: white;
     color: #03045e;
-    font-family: "Lolita One", monospace;
+    font-family: 'Lolita One', monospace;
 
 }
 header {
     background-color:#046ede;
 }
 .home-title {
-    font-family: "Lolita One", monospace;
+    font-family: 'Lolita One', monospace;
     font-size: 2em;
 }
 .book {
     background-color: white;
     color: #03045e;
     text-decoration: none;
-    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-family: 'Mooli', Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 .book:hover {
@@ -27,7 +27,7 @@ header {
     background-color: #90b8f0;
     color: white;
     text-decoration: none;
-    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-family: 'Mooli', Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 .join:hover {
@@ -41,7 +41,7 @@ nav a {
     text-align: center;
     color: #90b8f0;
     text-decoration: none;
-    font-family: "Mooli", Arial, Helvetica, sans-serif
+    font-family: 'Mooli', Arial, Helvetica, sans-serif
 }
 nav a:hover {
     background-color: #03045e;
@@ -50,7 +50,7 @@ nav a:hover {
 footer p {
     font-size: 1.2em;
     color: white;
-    font-family: "Mooli", Arial, Helvetica, sans-serif
+    font-family: 'Mooli', Arial, Helvetica, sans-serif
 }
 footer p a:hover {
     text-decoration: none;
@@ -76,7 +76,7 @@ div {
 #hero-msg h4 {
     text-align: center;
     color: #03045e;
-    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-family: 'Mooli', Arial, Helvetica, sans-serif;
 }
 .button-box {
     text-align: center;
@@ -97,11 +97,11 @@ img {
 }
 .msg h2 {
     color: #03045e;
-    font-family: "Lolita One", monospace;
+    font-family: 'Lolita One', monospace;
 }
 .msg p {
     color: #03045e;
-    font-family: "Mooli", Arial, Helvetica, sans-serif;
+    font-family: 'Mooli', Arial, Helvetica, sans-serif;
     font-size: .8em;
 }
 #hero-img {
