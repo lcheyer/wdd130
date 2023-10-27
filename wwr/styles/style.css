@@ -179,11 +179,12 @@ main section img {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    
 }
 nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    align-items: stretch, flex-start, center;
+    gap: 30px;
 }
 #logo_link {
     padding-top: 5px;
