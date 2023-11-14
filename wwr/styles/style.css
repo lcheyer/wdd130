@@ -192,7 +192,7 @@ img {
 }
 .msg {
     grid-column: 6/10;
-    grid-row: 5/6;
+    grid-row: 6/7;
 }
 main section img {
     box-sizing: border-box;
@@ -235,6 +235,11 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+div-class {
+    max-width: 1600px;
+    /*background-color: #fcfbfb; */
+    margin: 0 auto;
 }
 
 
