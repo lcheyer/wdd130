@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat+Alternates&display=swap);
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px 80px;
+    background-color: white;
+}
+header {
+    background-color:#ef8f22;
+}
+nav a {
+    text-align: center;
+    color: #fefae0;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+nav a:hover {
+    background-color: #e66b00;
+    color: #fefae0;
+}
+.home-title {
+    color: #e66b00;
+    text-decoration-thickness: bold;
+    font-family: 'Architects Daughter', Arial, Helvetica, sans-serif
+}
+.msg {
+    font-family: 'Architects Daughter', Arial, Helvetica, sans-serif; 
+    color: #606c38;
+    text-align: center;
+    text-decoration: none;
+}
