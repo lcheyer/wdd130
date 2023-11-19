@@ -2,7 +2,7 @@
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 3fr 2fr 1fr 1fr 4fr 4fr 2fr;
     grid-gap: 20px;
     margin: 20px 80px;
     background-color: white;
@@ -31,4 +31,36 @@ nav a:hover {
     color: #606c38;
     text-align: center;
     text-decoration: none;
+}
+.logo {
+    width: 80px;
+
+}
+card-img {
+    grid-column: 2/8;
+}
+footer p {
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Mooli', Arial, Helvetica, sans-serif
+}
+footer p a:hover {
+    text-decoration: none;
+    color: #ef8f22;
+    background-color: #fefae0;
+}
+footer {
+    background-color: #ef8f22;
+    color: #fefae0;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #e66b00;
+}
+footer .social img {
+    padding-top: 15px;
 }
