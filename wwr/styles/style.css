@@ -253,8 +253,7 @@ blockquote {
 
 
 /* page 2 css */
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Mooli&display=swap'); 
-body { 
+head {
     background-color: white;
     color: #03045e;
     font-family: 'Lolita One', monospace, sans-serif;
@@ -262,12 +261,13 @@ body {
     margin: 0;
     padding: 0;
 }
-rivers-grid {
+.rivers-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     grid-gap: 20px;
     margin: 20px 80px;
     background-color: white;
+    column-gap: 50px;
 }
 .msg1 {
     background-color: #a1c3f4;
@@ -276,6 +276,12 @@ rivers-grid {
     margin: 0 auto;
     padding: 0;
     box-shadow: 5px 5px 10px #6f7362;
+    text-align: center;
+   
+}
+.msg1 h2 {
+    color: #03045e;
+    font-family: 'Lolita One', monospace;
 }
 .msg2 {
     background-color: #3983d2;
@@ -284,7 +290,11 @@ rivers-grid {
     margin: 0 auto; 
     padding: 0;
     box-shadow: 5px 5px 10px #6f7362;
-
+    text-align: center;
+}
+.msg2 h2 {
+    color: white;
+    font-family: 'Lolita One', monospace;
 }
 .msg3 {
     background-color: #1f4190;
@@ -293,12 +303,49 @@ rivers-grid {
     margin: 0 auto;
     padding: 0; 
     box-shadow: 5px 5px 10px #6f7362;
+    text-align: center;
 }
-.rivers {
+.msg3 h2 {
+    color: #b8d3f9;
+    font-family: 'Lolita One', monospace;
+}
+.rivers1 {
     text-align: center;
     margin: 0 auto; 
     box-shadow: 5px 5px 10px #6f7362;
+    width: 95%;
+    padding: 10px;
 }
+#m_one {
+    grid-column: 8/9
+}
+.rivers2 {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7362;
+    padding: 10px;
+}
+.rivers3 {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #6f7362; 
+    grid-column: 5/9;
+    padding: 10px;
+}
+.rivers1 .rivers2 .rivers3 {
+    text-align: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(10, 1fr);
+    row-gap: 50px;
+    justify-content: space-between;
+}
+
+
 
 
 
