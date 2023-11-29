@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Mooli&display=swap'); 
+
 body {
-    background-color: white;
-    color: #03045e;
-    font-family: 'Lolita One', monospace, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+    
 }
 
 .home-grid {
