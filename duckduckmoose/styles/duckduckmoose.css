@@ -10,14 +10,14 @@
 header {
     background-color:#ef8f22;
 }
-nav a {
+nav_a {
     text-align: center;
     color: #fefae0;
     text-decoration: none;
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
     padding-top: 5px;
 }
-nav a:hover {
+nav_a:hover {
     background-color: #c24801;
     color: #fffef7;
 }
@@ -25,16 +25,22 @@ nav a:hover {
     color: #e66b00;
     text-decoration-thickness: bold;
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+    background-color: #ffe9c0;
 }
 .home-title_main {
     font-family: 'Architects Daughter', Arial, Helvetica, sans-serif;
     color: #e66b00;
     text-decoration-thickness: bold;
+    background-color: #ffe9c0;
 }
 .home-title_end {
     font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif; 
     color: #e66b00;
     text-decoration: none; 
+    background-color: #ffe9c0;
+}
+#hero-msg {
+    grid-column: 2/5;
 }
 .cover-card {
     font-family: 'Architects Daughter', Arial, Helvetica, sans-serif;
@@ -69,11 +75,18 @@ nav a:hover {
 }
 .logo {
     width: 80px;
-
+    grid-column: 1/2;
 }
-card-img {
-    grid-column: 2/8;
+/* 
+.card-img {
+    width: 100%;
+    grid-column: 9/10;
 }
+.card-img_2 {
+    width: 100%; 
+    grid-column: 2/7;
+} 
+*/
 footer p {
     font-size: 1.2em;
     color: white;
@@ -104,8 +117,24 @@ footer .social {
     font-family: 'Architects Daughter', Arial, Helvetica, sans-serif; 
 }
 .social {
-    width: 15px; 
+    width: 10px 100%; 
 }
+#cover_one {
+    grid-column: 9/10;
+}
+#cover_two {
+    grid-column: 2/7;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -117,30 +146,49 @@ character-grid {
     margin: 20px 80px;
     background-color: white;
 }
-#l_one {
-    padding: 10px;
-    text-align: center;
-
-}
 .character-title {
     font-family: 'Montserrat Alternate', Arial, Helvetica, sans-serif;
-
+    background-color: #db6504;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.cover-card2 {
+    background-color: white;
+    color: #e66b00;
+    font-family: 'Architects Daughter', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 .moose_one {
     text-align: center;
     margin: 0 auto;
-    box-shadow: 5px 5px 10px #6f7362;
+    box-shadow: 3px 3px 7px #855753;;
     padding: 10px;
 }
-.hero-msg_one {
-    background-color: #;
-    color: #;
-    font-family: 'Montserrat Alternate', Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    box-shadow: 5px 5px 10px #6f7362;
+.pig_one {
     text-align: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #855753;;
+    padding: 10px;
 }
+#l_one {
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+#l_two {
+    grid-column: 2/4;
+    grid-row: 6/7; 
+}
+
+
+
+
+
+
+
 
 
 
@@ -164,7 +212,7 @@ author-grid {
     margin: 0 auto;
     box-shadow: 5px 5px 10px #6f7362;
     padding: 10px;
-    background-color: #ffc99a;
+    background-color: #b33b3b;
 }
 .msg_3 {
     font-family: 'Architects Daughter', Arial, Helvetica, sans-serif; 
